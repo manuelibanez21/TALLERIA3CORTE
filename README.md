@@ -33,7 +33,7 @@ Con suficientes iteraciones y retroalimentación, el agente converge a decisione
 
 Los algoritmos de RL se dividen en tres categorías principales:
 
-#### 🎯 1. Métodos basados en valores (Value-Based)
+####  1. Métodos basados en valores (Value-Based)
 El agente aprende una función de valor, que estima qué tan buena es una acción en un estado.
 
 **Ejemplos:**
@@ -47,7 +47,7 @@ El agente aprende una función de valor, que estima qué tan buena es una acció
 - Política ε-greedy
 - Recompensa (R)
 
-#### 🎯 2. Métodos basados en políticas (Policy-Based)
+#### 2. Métodos basados en políticas (Policy-Based)
 El agente aprende directamente una política que asigna probabilidades a cada acción.
 
 **Ejemplos:**
@@ -60,7 +60,7 @@ El agente aprende directamente una política que asigna probabilidades a cada ac
 - Función de pérdida basada en recompensa
 - Actualización por gradiente
 
-#### 🎯 3. Métodos actor-crítico (Actor-Critic)
+#### 3. Métodos actor-crítico (Actor-Critic)
 Combinan los dos anteriores:
 - **Actor**: decide la acción
 - **Crítico**: evalúa la calidad de la acción tomada
@@ -152,7 +152,7 @@ p_gratis_not_spam = 0.1
 
 print(prob_spam(p_spam, p_not_spam, p_gratis_spam, p_gratis_not_spam))
 Resultado:
-👉 ≈ 0.774 → 77.4% de probabilidad de que sea SPAM
+ ≈ 0.774 → 77.4% de probabilidad de que sea SPAM
 
 3. Algoritmos más utilizados actualmente y sus características
 Algoritmo	Tipo	Uso Principal	Características
