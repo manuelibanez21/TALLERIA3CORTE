@@ -8,7 +8,7 @@ Un agente de aprendizaje por refuerzo aprende a tomar decisiones óptimas
 en entornos inciertos mediante un proceso iterativo de **prueba y
 error** basado en los siguientes principios fundamentales:
 
-### 🔄 Proceso de Aprendizaje
+### Proceso de Aprendizaje
 
 -   **Interacción continua**: El agente ejecuta acciones, observa
     estados y recibe recompensas.\
@@ -17,7 +17,7 @@ error** basado en los siguientes principios fundamentales:
 -   **Balance exploración-explotación**: Equilibrio entre probar nuevas
     acciones y usar conocimientos previos.
 
-### 🧠 Mecanismos de Aprendizaje
+### Mecanismos de Aprendizaje
 
 ``` python
 # Pseudocódigo del proceso de aprendizaje
@@ -29,7 +29,7 @@ for episodio in range(max_episodios):
     estado_actual = nuevo_estado
 ```
 
-### 📈 Estrategias para Incertidumbre
+### Estrategias para Incertidumbre
 
 -   **Aprendizaje de valores**: Estimación de recompensas futuras
     esperadas.\
@@ -42,7 +42,7 @@ for episodio in range(max_episodios):
 
 ## 1.b Tipos de Algoritmos de Aprendizaje por Refuerzo
 
-### 🎯 Métodos Basados en Valor (Value-Based)
+### Métodos Basados en Valor (Value-Based)
 
 #### Arquitectura
 
@@ -65,7 +65,7 @@ for episodio in range(max_episodios):
 
 ------------------------------------------------------------------------
 
-### 🎯 Métodos Basados en Política (Policy-Based)
+### Métodos Basados en Política (Policy-Based)
 
 #### Arquitectura
 
@@ -88,7 +88,7 @@ for episodio in range(max_episodios):
 
 ------------------------------------------------------------------------
 
-### 🎯 Métodos Actor-Crítico (Actor-Critic)
+###  Métodos Actor-Crítico (Actor-Critic)
 
 #### Arquitectura
 
@@ -120,7 +120,7 @@ for episodio in range(max_episodios):
 
 ## 1.c Aplicaciones en la Industria
 
-### 🏭 Manufactura y Logística
+### Manufactura y Logística
 
 ``` python
 # Ejemplo: Optimización de línea de producción
@@ -139,7 +139,7 @@ Aplicaciones: - Robótica industrial\
 
 ------------------------------------------------------------------------
 
-### 📡 Telecomunicaciones
+### Telecomunicaciones
 
 ``` python
 class RouterInteligente:
@@ -153,7 +153,7 @@ Aplicaciones: - Gestión de espectro\
 
 ------------------------------------------------------------------------
 
-### 🚗 Vehículos Autónomos
+### Vehículos Autónomos
 
 -   Navegación\
 -   Control\
@@ -161,7 +161,7 @@ Aplicaciones: - Gestión de espectro\
 
 ------------------------------------------------------------------------
 
-### ⚡ Energía
+### Energía
 
 -   Smart Grids\
 -   Distribución óptima\
@@ -171,7 +171,7 @@ Aplicaciones: - Gestión de espectro\
 
 # 2. Algoritmo Bayesiano para Detección de SPAM
 
-## 📊 Datos Dado:
+## Datos Dado:
 
 -   P(Spam)=0.3\
 -   P(No Spam)=0.7\
@@ -180,7 +180,7 @@ Aplicaciones: - Gestión de espectro\
 
 ------------------------------------------------------------------------
 
-## 🧮 Solución con Bayes
+## Solución con Bayes
 
 ### Probabilidad Total
 
@@ -194,7 +194,7 @@ Aplicaciones: - Gestión de espectro\
 
 ------------------------------------------------------------------------
 
-## 💻 Implementación
+## Implementación
 
 ``` python
 class ClasificadorBayesSpam:
@@ -223,7 +223,7 @@ print(clasificador.calcular_probabilidad_spam(['gratis']))
 
 # 3. Algoritmos Más Usados en Academia e Industria
 
-## 🤖 Redes Neuronales (Deep Learning)
+## Redes Neuronales (Deep Learning)
 
 ### CNN
 
@@ -241,7 +241,7 @@ Aplicaciones: - Texto\
 
 ------------------------------------------------------------------------
 
-## 🌳 Algoritmos de Ensamblaje
+## Algoritmos de Ensamblaje
 
 ### Random Forest
 
@@ -249,7 +249,7 @@ Aplicaciones: - Texto\
 
 ------------------------------------------------------------------------
 
-## 🔍 No Supervisado
+## No Supervisado
 
 ### K-Means
 
@@ -257,17 +257,17 @@ Aplicaciones: - Texto\
 
 ------------------------------------------------------------------------
 
-## 🦉 Probabilísticos
+##  Probabilísticos
 
 ### Naive Bayes
 
 ------------------------------------------------------------------------
 
-## 🎯 Máquinas de Vectores de Soporte (SVM)
+## Máquinas de Vectores de Soporte (SVM)
 
 ------------------------------------------------------------------------
 
-## 🚀 Vanguardia
+## Vanguardia
 
 ### Transformers
 
@@ -275,7 +275,7 @@ Aplicaciones: - Texto\
 
 ------------------------------------------------------------------------
 
-# 📊 Tabla Comparativa
+# Tabla Comparativa
 
   Categoría          Algoritmos               Fortalezas        Aplicaciones
   ------------------ ------------------------ ----------------- --------------------
